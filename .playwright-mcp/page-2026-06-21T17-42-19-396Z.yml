@@ -1,0 +1,157 @@
+- generic [ref=e1]:
+  - alert [ref=e47]
+  - generic [ref=e71]:
+    - generic [ref=e73]:
+      - heading "React Component Generator" [level=1] [ref=e75]
+      - generic [ref=e77]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e125]: Create a product card component with an image, title, description, and price. Make it visually interesting and modern.
+            - img [ref=e128]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e157]:
+              - generic [ref=e160]: Creating App.jsx
+              - separator [ref=e161]
+              - generic [ref=e164]: Creating ProductCard.jsx
+              - separator [ref=e165]
+              - generic [ref=e166]:
+                - paragraph [ref=e167]: "Done! Created a modern product card component with:"
+                - list [ref=e168]:
+                  - listitem [ref=e169]:
+                    - strong [ref=e170]: Image
+                    - text: with zoom effect on hover
+                  - listitem [ref=e171]:
+                    - strong [ref=e172]: Title & description
+                    - text: with text truncation
+                  - listitem [ref=e173]:
+                    - strong [ref=e174]: Price display
+                    - text: with strikethrough original price
+                  - listitem [ref=e175]:
+                    - strong [ref=e176]: Badge
+                    - text: for special labels
+                  - listitem [ref=e177]:
+                    - strong [ref=e178]: Wishlist button
+                    - text: with heart icon
+                  - listitem [ref=e179]:
+                    - strong [ref=e180]: Add to cart button
+                    - text: with shopping cart icon
+                  - listitem [ref=e181]:
+                    - strong [ref=e182]: Smooth animations
+                    - text: and hover effects
+                  - listitem [ref=e183]:
+                    - strong [ref=e184]: Gradient backgrounds
+                    - text: and modern styling
+                  - listitem [ref=e185]:
+                    - strong [ref=e186]: Responsive grid layout
+                    - text: in the App
+                - paragraph [ref=e187]: The component uses Tailwind CSS for styling and Lucide React for icons.
+        - generic [ref=e88]:
+          - textbox "Describe the React component you want to create..." [ref=e89]
+          - button [disabled] [ref=e90]:
+            - img [ref=e91]
+    - separator [ref=e94]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - tablist [ref=e99]:
+          - tab "Preview" [ref=e100]
+          - tab "Code" [active] [selected] [ref=e101]
+        - generic [ref=e102]:
+          - combobox [ref=e103]:
+            - img
+            - text: "New Design #11661"
+            - img
+          - button "New Design" [ref=e104]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e105]:
+            - img
+      - generic [ref=e188]:
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196] [cursor=pointer]:
+              - img [ref=e197]
+              - img [ref=e199]
+              - generic [ref=e201]: components
+            - generic [ref=e204] [cursor=pointer]:
+              - img [ref=e205]
+              - generic [ref=e210]: ProductCard.jsx
+          - generic [ref=e212] [cursor=pointer]:
+            - img [ref=e213]
+            - generic [ref=e218]: App.jsx
+        - separator [ref=e219]
+        - code [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e227]:
+              - generic [ref=e230]: "1"
+              - generic [ref=e232]: "2"
+              - generic [ref=e233]:
+                - generic [ref=e234] [cursor=pointer]: 
+                - generic [ref=e235]: "3"
+              - generic [ref=e236]:
+                - generic [ref=e237] [cursor=pointer]: 
+                - generic [ref=e238]: "4"
+              - generic [ref=e239]:
+                - generic [ref=e240] [cursor=pointer]: 
+                - generic [ref=e241]: "5"
+              - generic [ref=e243]:
+                - generic [ref=e244] [cursor=pointer]: 
+                - generic [ref=e245]: "6"
+              - generic [ref=e247]: "7"
+              - generic [ref=e250]: "8"
+              - generic [ref=e253]: "9"
+              - generic [ref=e254]:
+                - generic [ref=e255] [cursor=pointer]: 
+                - generic [ref=e256]: "10"
+              - generic [ref=e258]:
+                - generic [ref=e259] [cursor=pointer]: 
+                - generic [ref=e260]: "11"
+              - generic [ref=e262]: "12"
+              - generic [ref=e266]: "13"
+              - generic [ref=e268]: "14"
+              - generic [ref=e272]: "15"
+              - generic [ref=e274]: "16"
+              - generic [ref=e276]: "17"
+              - generic [ref=e277]:
+                - generic [ref=e278] [cursor=pointer]: 
+                - generic [ref=e279]: "18"
+              - generic [ref=e281]: "19"
+              - generic [ref=e285]: "20"
+              - generic [ref=e287]: "21"
+              - generic [ref=e290]: "22"
+            - generic [ref=e473]:
+              - generic [ref=e475]: import ProductCard from '@/components/ProductCard';
+              - generic [ref=e478]: "export default function App() {"
+              - generic [ref=e480]: return (
+              - generic [ref=e482]: <div className="min-h-screen bg-gradient-to-br
+              - generic [ref=e484]: from-slate-900 via-slate-800 to-slate-900 p-8">
+              - generic [ref=e486]: <div className="max-w-6xl mx-auto">
+              - generic [ref=e488]: <h1 className="text-4xl font-bold text-white
+              - generic [ref=e490]: mb-2">Featured Products</h1>
+              - generic [ref=e492]: <p className="text-slate-400 mb-12">Discover
+              - generic [ref=e494]: our latest collection</p>
+              - generic [ref=e498]: <div className="grid grid-cols-1
+              - generic [ref=e500]: md:grid-cols-2 lg:grid-cols-3 gap-8">
+              - generic [ref=e502]: <ProductCard
+              - generic [ref=e504]: image="https://images.unsplash.com/
+              - generic [ref=e506]: photo-1505740420928-5e560c06d30e?w=500&
+              - generic [ref=e508]: h=500&fit=crop"
+              - generic [ref=e510]: title="Premium Wireless Headphones"
+              - generic [ref=e512]: description="High-quality sound with
+              - generic [ref=e514]: active noise cancellation and 30-hour
+              - generic [ref=e516]: battery life"
+              - generic [ref=e518]: "price={299.99}"
+              - generic [ref=e520]: badge="Best Seller"
+              - generic [ref=e522]: />
+              - generic [ref=e524]: <ProductCard
+              - generic [ref=e526]: image="https://images.unsplash.com/
+              - generic [ref=e528]: photo-1523275335684-37898b6baf30?w=500&
+              - generic [ref=e530]: h=500&fit=crop"
+              - generic [ref=e532]: title="Luxury Watch Collection"
+              - generic [ref=e534]: description="Elegant timepiece with Swiss
+              - generic [ref=e536]: movement and sapphire crystal"
+              - generic [ref=e538]: "price={1299.99}"
+            - textbox "Editor content" [ref=e540]
+  - generic [ref=e541]:
+    - alert
+    - alert

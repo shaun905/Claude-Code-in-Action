@@ -1,0 +1,114 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e47]
+  - generic [ref=e71]:
+    - generic [ref=e73]:
+      - heading "React Component Generator" [level=1] [ref=e75]
+      - generic [ref=e77]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e125]: Create a product card component with an image, title, description, and price. Make it visually interesting and modern.
+            - img [ref=e128]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e157]:
+              - generic [ref=e160]: Creating App.jsx
+              - separator [ref=e161]
+              - generic [ref=e164]: Creating ProductCard.jsx
+              - separator [ref=e165]
+              - generic [ref=e166]:
+                - paragraph [ref=e167]: "Done! Created a modern product card component with:"
+                - list [ref=e168]:
+                  - listitem [ref=e169]:
+                    - strong [ref=e170]: Image
+                    - text: with zoom effect on hover
+                  - listitem [ref=e171]:
+                    - strong [ref=e172]: Title & description
+                    - text: with text truncation
+                  - listitem [ref=e173]:
+                    - strong [ref=e174]: Price display
+                    - text: with strikethrough original price
+                  - listitem [ref=e175]:
+                    - strong [ref=e176]: Badge
+                    - text: for special labels
+                  - listitem [ref=e177]:
+                    - strong [ref=e178]: Wishlist button
+                    - text: with heart icon
+                  - listitem [ref=e179]:
+                    - strong [ref=e180]: Add to cart button
+                    - text: with shopping cart icon
+                  - listitem [ref=e181]:
+                    - strong [ref=e182]: Smooth animations
+                    - text: and hover effects
+                  - listitem [ref=e183]:
+                    - strong [ref=e184]: Gradient backgrounds
+                    - text: and modern styling
+                  - listitem [ref=e185]:
+                    - strong [ref=e186]: Responsive grid layout
+                    - text: in the App
+                - paragraph [ref=e187]: The component uses Tailwind CSS for styling and Lucide React for icons.
+        - generic [ref=e88]:
+          - textbox "Describe the React component you want to create..." [ref=e89]
+          - button [disabled] [ref=e90]:
+            - img [ref=e91]
+    - separator [ref=e94]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - tablist [ref=e99]:
+          - tab "Preview" [selected] [ref=e100]
+          - tab "Code" [ref=e101]
+        - generic [ref=e102]:
+          - combobox [ref=e103]:
+            - img
+            - text: "New Design #11661"
+            - img
+          - button "New Design" [ref=e104]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e105]:
+            - img
+      - iframe [ref=e148]:
+        - generic [ref=f3e4]:
+          - heading "Featured Products" [level=1] [ref=f3e5]
+          - paragraph [ref=f3e6]: Discover our latest collection
+          - generic [ref=f3e7]:
+            - generic [ref=f3e8]:
+              - generic [ref=f3e9]: Best Seller
+              - button [ref=f3e10] [cursor=pointer]:
+                - img [ref=f3e11]
+              - img "Premium Wireless Headphones" [ref=f3e14]
+              - generic [ref=f3e16]:
+                - heading "Premium Wireless Headphones" [level=3] [ref=f3e17]
+                - paragraph [ref=f3e18]: High-quality sound with active noise cancellation and 30-hour battery life
+                - generic [ref=f3e19]:
+                  - generic [ref=f3e20]: $299.99
+                  - generic [ref=f3e21]: $359.99
+                - button "Add to Cart" [ref=f3e22] [cursor=pointer]:
+                  - img [ref=f3e23]
+                  - text: Add to Cart
+            - generic [ref=f3e28]:
+              - generic [ref=f3e29]: Premium
+              - button [ref=f3e30] [cursor=pointer]:
+                - img [ref=f3e31]
+              - img "Luxury Watch Collection" [ref=f3e34]
+              - generic [ref=f3e36]:
+                - heading "Luxury Watch Collection" [level=3] [ref=f3e37]
+                - paragraph [ref=f3e38]: Elegant timepiece with Swiss movement and sapphire crystal
+                - generic [ref=f3e39]:
+                  - generic [ref=f3e40]: $1299.99
+                  - generic [ref=f3e41]: $1559.99
+                - button "Add to Cart" [ref=f3e42] [cursor=pointer]:
+                  - img [ref=f3e43]
+                  - text: Add to Cart
+            - generic [ref=f3e48]:
+              - button [ref=f3e49] [cursor=pointer]:
+                - img [ref=f3e50]
+              - img "Designer Sunglasses" [ref=f3e53]
+              - generic [ref=f3e55]:
+                - heading "Designer Sunglasses" [level=3] [ref=f3e56]
+                - paragraph [ref=f3e57]: UV protection with polarized lenses and timeless style
+                - generic [ref=f3e58]:
+                  - generic [ref=f3e59]: $199.99
+                  - generic [ref=f3e60]: $239.99
+                - button "Add to Cart" [ref=f3e61] [cursor=pointer]:
+                  - img [ref=f3e62]
+                  - text: Add to Cart

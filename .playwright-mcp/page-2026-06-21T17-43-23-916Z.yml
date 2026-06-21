@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e47]
+  - generic [ref=e541]:
+    - alert
+    - alert
+  - generic [ref=e774]:
+    - generic [ref=e776]:
+      - heading "React Component Generator" [level=1] [ref=e778]
+      - generic [ref=e780]:
+        - generic [ref=e824]:
+          - generic [ref=e825]:
+            - generic [ref=e828]: Create a pricing table with three plans. Make it unique and visually striking, not like a standard template.
+            - img [ref=e831]
+          - generic [ref=e847]:
+            - img [ref=e850]
+            - generic [ref=e855]:
+              - generic [ref=e858]: Creating App.jsx
+              - separator [ref=e859]
+              - generic [ref=e860]:
+                - paragraph [ref=e861]: "Done. I've created a striking pricing table with:"
+                - paragraph [ref=e862]:
+                  - strong [ref=e863]: "Design highlights:"
+                - list [ref=e864]:
+                  - listitem [ref=e865]:
+                    - strong [ref=e866]: Asymmetrical layout
+                    - text: ": The Pro plan scales up and sits above the others, creating visual hierarchy"
+                  - listitem [ref=e867]:
+                    - strong [ref=e868]: Gradient accents
+                    - text: ": Each plan has a unique color gradient (amber/orange, emerald/teal, slate) that appears on hover with a blur effect"
+                  - listitem [ref=e869]:
+                    - strong [ref=e870]: Interactive hover states
+                    - text: ": Cards scale and reveal gradient backgrounds—not just a simple color change"
+                  - listitem [ref=e871]:
+                    - strong [ref=e872]: Refined typography
+                    - text: ": Bold, black headings with intentional spacing and a gradient text effect in the main title"
+                  - listitem [ref=e873]:
+                    - strong [ref=e874]: Subtle dividers
+                    - text: ": Gradient line separating price from features instead of a harsh border"
+                  - listitem [ref=e875]:
+                    - strong [ref=e876]: Contextual badges
+                    - text: ": \"Most Popular\" badge floats above the featured plan"
+                  - listitem [ref=e877]:
+                    - strong [ref=e878]: Smooth transitions
+                    - text: ": All interactions use 500ms transitions for a polished feel"
+                - paragraph [ref=e879]: The design avoids template clichés by using unexpected color combinations and interactive depth rather than heavy shadows.
+        - generic [ref=e791]:
+          - textbox "Describe the React component you want to create..." [ref=e792]
+          - button [disabled] [ref=e793]:
+            - img [ref=e794]
+    - separator [ref=e797]
+    - generic [ref=e799]:
+      - generic [ref=e800]:
+        - tablist [ref=e802]:
+          - tab "Preview" [selected] [ref=e803]
+          - tab "Code" [ref=e804]
+        - generic [ref=e805]:
+          - combobox [ref=e806]:
+            - img
+            - text: "Design #5367"
+            - img
+          - button "New Design" [ref=e807]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e808]:
+            - img
+      - iframe [ref=e880]:
+        - generic [ref=f5e3]:
+          - generic [ref=f5e5]:
+            - heading "Simple, Transparent Pricing" [level=1] [ref=f5e6]:
+              - text: Simple, Transparent
+              - generic [ref=f5e7]: Pricing
+            - paragraph [ref=f5e8]: Choose the plan that fits your needs. Always flexible to scale as you grow.
+          - generic [ref=f5e10]:
+            - generic [ref=f5e13]:
+              - generic [ref=f5e14]:
+                - heading "Starter" [level=3] [ref=f5e15]
+                - paragraph [ref=f5e16]: Perfect for getting started
+              - generic [ref=f5e18]:
+                - generic [ref=f5e19]: "29"
+                - generic [ref=f5e20]: /month
+              - button "Get Started" [ref=f5e21] [cursor=pointer]
+              - generic [ref=f5e23]:
+                - generic [ref=f5e24]:
+                  - img [ref=f5e26]
+                  - generic [ref=f5e28]: Up to 5 projects
+                - generic [ref=f5e29]:
+                  - img [ref=f5e31]
+                  - generic [ref=f5e33]: 2GB storage
+                - generic [ref=f5e34]:
+                  - img [ref=f5e36]
+                  - generic [ref=f5e38]: Basic analytics
+                - generic [ref=f5e39]:
+                  - img [ref=f5e41]
+                  - generic [ref=f5e43]: Community support
+                - generic [ref=f5e44]:
+                  - img [ref=f5e46]
+                  - generic [ref=f5e48]: Monthly reports
+            - generic [ref=f5e51]:
+              - generic [ref=f5e53]: Most Popular
+              - generic [ref=f5e54]:
+                - heading "Pro" [level=3] [ref=f5e55]
+                - paragraph [ref=f5e56]: For growing teams
+              - generic [ref=f5e58]:
+                - generic [ref=f5e59]: "79"
+                - generic [ref=f5e60]: /month
+              - button "Start Free Trial" [ref=f5e61] [cursor=pointer]
+              - generic [ref=f5e63]:
+                - generic [ref=f5e64]:
+                  - img [ref=f5e66]
+                  - generic [ref=f5e68]: Unlimited projects
+                - generic [ref=f5e69]:
+                  - img [ref=f5e71]
+                  - generic [ref=f5e73]: 100GB storage
+                - generic [ref=f5e74]:
+                  - img [ref=f5e76]
+                  - generic [ref=f5e78]: Advanced analytics
+                - generic [ref=f5e79]:
+                  - img [ref=f5e81]
+                  - generic [ref=f5e83]: Priority support
+                - generic [ref=f5e84]:
+                  - img [ref=f5e86]
+                  - generic [ref=f5e88]: Real-time collaboration
+                - generic [ref=f5e89]:
+                  - img [ref=f5e91]
+                  - generic [ref=f5e93]: Custom integrations
+                - generic [ref=f5e94]:
+                  - img [ref=f5e96]
+                  - generic [ref=f5e98]: API access
+            - generic [ref=f5e101]:
+              - generic [ref=f5e102]:
+                - heading "Enterprise" [level=3] [ref=f5e103]
+                - paragraph [ref=f5e104]: For large organizations
+              - generic [ref=f5e107]: Custom
+              - button "Contact Sales" [ref=f5e108] [cursor=pointer]
+              - generic [ref=f5e110]:
+                - generic [ref=f5e111]:
+                  - img [ref=f5e113]
+                  - generic [ref=f5e115]: Everything in Pro
+                - generic [ref=f5e116]:
+                  - img [ref=f5e118]
+                  - generic [ref=f5e120]: Unlimited storage
+                - generic [ref=f5e121]:
+                  - img [ref=f5e123]
+                  - generic [ref=f5e125]: Dedicated account manager
+                - generic [ref=f5e126]:
+                  - img [ref=f5e128]
+                  - generic [ref=f5e130]: 24/7 phone support
+                - generic [ref=f5e131]:
+                  - img [ref=f5e133]
+                  - generic [ref=f5e135]: Custom contracts
+                - generic [ref=f5e136]:
+                  - img [ref=f5e138]
+                  - generic [ref=f5e140]: SSO & advanced security
+                - generic [ref=f5e141]:
+                  - img [ref=f5e143]
+                  - generic [ref=f5e145]: On-premise option
+          - paragraph [ref=f5e147]: All plans include a 14-day free trial. No credit card required.

@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e47]
+  - generic [ref=e71]:
+    - generic [ref=e73]:
+      - heading "React Component Generator" [level=1] [ref=e75]
+      - generic [ref=e77]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e125]: Create a product card component with an image, title, description, and price. Make it visually interesting and modern.
+            - img [ref=e128]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e157]:
+              - generic [ref=e160]: Creating App.jsx
+              - separator [ref=e161]
+              - generic [ref=e164]: Creating ProductCard.jsx
+              - separator [ref=e165]
+              - generic [ref=e166]:
+                - paragraph [ref=e167]: "Done! Created a modern product card component with:"
+                - list [ref=e168]:
+                  - listitem [ref=e169]:
+                    - strong [ref=e170]: Image
+                    - text: with zoom effect on hover
+                  - listitem [ref=e171]:
+                    - strong [ref=e172]: Title & description
+                    - text: with text truncation
+                  - listitem [ref=e173]:
+                    - strong [ref=e174]: Price display
+                    - text: with strikethrough original price
+                  - listitem [ref=e175]:
+                    - strong [ref=e176]: Badge
+                    - text: for special labels
+                  - listitem [ref=e177]:
+                    - strong [ref=e178]: Wishlist button
+                    - text: with heart icon
+                  - listitem [ref=e179]:
+                    - strong [ref=e180]: Add to cart button
+                    - text: with shopping cart icon
+                  - listitem [ref=e181]:
+                    - strong [ref=e182]: Smooth animations
+                    - text: and hover effects
+                  - listitem [ref=e183]:
+                    - strong [ref=e184]: Gradient backgrounds
+                    - text: and modern styling
+                  - listitem [ref=e185]:
+                    - strong [ref=e186]: Responsive grid layout
+                    - text: in the App
+                - paragraph [ref=e187]: The component uses Tailwind CSS for styling and Lucide React for icons.
+        - generic [ref=e88]:
+          - textbox "Describe the React component you want to create..." [ref=e89]
+          - button [disabled] [ref=e90]:
+            - img [ref=e91]
+    - separator [ref=e94]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - tablist [ref=e99]:
+          - tab "Preview" [ref=e100]
+          - tab "Code" [selected] [ref=e101]
+        - generic [ref=e102]:
+          - combobox [ref=e103]:
+            - img
+            - text: "New Design #11661"
+            - img
+          - button "New Design" [ref=e104]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e105]:
+            - img
+      - generic [ref=e188]:
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196] [cursor=pointer]:
+              - img [ref=e197]
+              - img [ref=e199]
+              - generic [ref=e201]: components
+            - generic [ref=e204] [cursor=pointer]:
+              - img [ref=e205]
+              - generic [ref=e210]: ProductCard.jsx
+          - generic [ref=e212] [cursor=pointer]:
+            - img [ref=e213]
+            - generic [ref=e218]: App.jsx
+        - separator [ref=e219]
+        - code [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e227]:
+              - generic [ref=e543]: "1"
+              - generic [ref=e232]: "2"
+              - generic [ref=e545]: "3"
+              - generic [ref=e546]:
+                - generic [ref=e547] [cursor=pointer]: 
+                - generic [ref=e548]: "4"
+              - generic [ref=e550]: "5"
+              - generic [ref=e552]: "6"
+              - generic [ref=e247]: "7"
+              - generic [ref=e553]:
+                - generic [ref=e554] [cursor=pointer]: 
+                - generic [ref=e555]: "8"
+              - generic [ref=e556]:
+                - generic [ref=e557] [cursor=pointer]: 
+                - generic [ref=e558]: "9"
+              - generic [ref=e560]: "10"
+              - generic [ref=e562]: "11"
+              - generic [ref=e262]: "12"
+              - generic [ref=e563]:
+                - generic [ref=e564] [cursor=pointer]: 
+                - generic [ref=e565]: "13"
+              - generic [ref=e268]: "14"
+              - generic [ref=e566]:
+                - generic [ref=e567] [cursor=pointer]: 
+                - generic [ref=e568]: "15"
+              - generic [ref=e569]:
+                - generic [ref=e570] [cursor=pointer]: 
+                - generic [ref=e571]: "16"
+              - generic [ref=e579]: "17"
+              - generic [ref=e581]: "18"
+              - generic [ref=e583]: "19"
+              - generic [ref=e585]: "20"
+              - generic [ref=e587]: "21"
+              - generic [ref=e588]:
+                - generic [ref=e589] [cursor=pointer]: 
+                - generic [ref=e590]: "22"
+              - generic [ref=e592]: "23"
+              - generic [ref=e594]: "24"
+            - generic [ref=e473]:
+              - generic [ref=e710]: "import { useState } from 'react';"
+              - generic [ref=e712]: "import { ShoppingCart, Heart } from 'lucide-react';"
+              - generic [ref=e715]: "export default function ProductCard({ image, title,"
+              - generic [ref=e717]: const [isWishlisted, setIsWishlisted] = useState
+              - generic [ref=e719]: (false);
+              - generic [ref=e721]: const [isHovered, setIsHovered] = useState(false);
+              - generic [ref=e724]: return (
+              - generic [ref=e726]: <div
+              - generic [ref=e728]: className="group relative bg-white rounded-2xl
+              - generic [ref=e730]: overflow-hidden shadow-lg hover:shadow-2xl
+              - generic [ref=e732]: "onMouseEnter={() => setIsHovered(true)}"
+              - generic [ref=e734]: "onMouseLeave={() => setIsHovered(false)}"
+              - generic [ref=e736]: ">"
+              - generic [ref=e738]: "{/* Badge */}"
+              - generic [ref=e740]: "{badge && ("
+              - generic [ref=e742]: <div className="absolute top-4 left-4 z-10
+              - generic [ref=e744]: "description, price, badge }) {"
+              - generic [ref=e746]: transition-all duration-300 transform
+              - generic [ref=e748]: hover:-translate-y-2"
+              - generic [ref=e750]: bg-gradient-to-r from-blue-500 to-purple-600
+              - generic [ref=e752]: text-white px-4 py-1 rounded-full text-sm
+              - generic [ref=e754]: font-semibold">
+              - generic [ref=e756]: "{badge}"
+              - generic [ref=e758]: </div>
+              - generic [ref=e760]: ")}"
+              - generic [ref=e763]: "{/* Wishlist Button */}"
+              - generic [ref=e765]: <button
+              - generic [ref=e767]: "onClick={() => setIsWishlisted(!isWishlisted)}"
+              - generic [ref=e769]: className="absolute top-4 right-4 z-10
+              - generic [ref=e771]: bg-white rounded-full p-2 shadow-md
+            - textbox "Editor content" [ref=e540]: "</div> {/* Decorative Elements */} <div className=\"absolute -bottom-1 -right-1 w-24 h-24 bg-gradient-to-br from-blue-400/10 to-purple-400/10 rounded-full blur-2xl\" /> </div> ); }"
+  - generic [ref=e541]:
+    - alert
+    - alert

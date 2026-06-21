@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e47]
+  - generic [ref=e71]:
+    - generic [ref=e73]:
+      - heading "React Component Generator" [level=1] [ref=e75]
+      - generic [ref=e77]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e125]: Create a product card component with an image, title, description, and price. Make it visually interesting and modern.
+            - img [ref=e128]
+          - generic [ref=e131]:
+            - img [ref=e134]
+            - generic [ref=e139]:
+              - generic [ref=e142]: Creating App.jsx
+              - separator [ref=e143]
+              - generic [ref=e144]:
+                - img [ref=e145]
+                - generic [ref=e147]: Generating...
+        - generic [ref=e88]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e89]
+          - button [disabled] [ref=e90]:
+            - img [ref=e91]
+    - separator [ref=e94]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - tablist [ref=e99]:
+          - tab "Preview" [selected] [ref=e100]
+          - tab "Code" [ref=e101]
+        - generic [ref=e102]:
+          - combobox [ref=e103]:
+            - img
+            - text: "New Design #11661"
+            - img
+          - button "New Design" [ref=e104]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e105]:
+            - img
+      - iframe [ref=e148]:
+        - generic [ref=f3e4]:
+          - heading "Featured Products" [level=1] [ref=f3e5]
+          - paragraph [ref=f3e6]: Discover our latest collection

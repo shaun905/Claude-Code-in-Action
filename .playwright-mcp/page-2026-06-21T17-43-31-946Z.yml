@@ -1,0 +1,150 @@
+- generic [ref=e1]:
+  - alert [ref=e47]
+  - generic [ref=e541]:
+    - alert
+    - alert
+  - generic [ref=e774]:
+    - generic [ref=e776]:
+      - heading "React Component Generator" [level=1] [ref=e778]
+      - generic [ref=e780]:
+        - generic [ref=e824]:
+          - generic [ref=e825]:
+            - generic [ref=e828]: Create a pricing table with three plans. Make it unique and visually striking, not like a standard template.
+            - img [ref=e831]
+          - generic [ref=e847]:
+            - img [ref=e850]
+            - generic [ref=e855]:
+              - generic [ref=e858]: Creating App.jsx
+              - separator [ref=e859]
+              - generic [ref=e860]:
+                - paragraph [ref=e861]: "Done. I've created a striking pricing table with:"
+                - paragraph [ref=e862]:
+                  - strong [ref=e863]: "Design highlights:"
+                - list [ref=e864]:
+                  - listitem [ref=e865]:
+                    - strong [ref=e866]: Asymmetrical layout
+                    - text: ": The Pro plan scales up and sits above the others, creating visual hierarchy"
+                  - listitem [ref=e867]:
+                    - strong [ref=e868]: Gradient accents
+                    - text: ": Each plan has a unique color gradient (amber/orange, emerald/teal, slate) that appears on hover with a blur effect"
+                  - listitem [ref=e869]:
+                    - strong [ref=e870]: Interactive hover states
+                    - text: ": Cards scale and reveal gradient backgrounds—not just a simple color change"
+                  - listitem [ref=e871]:
+                    - strong [ref=e872]: Refined typography
+                    - text: ": Bold, black headings with intentional spacing and a gradient text effect in the main title"
+                  - listitem [ref=e873]:
+                    - strong [ref=e874]: Subtle dividers
+                    - text: ": Gradient line separating price from features instead of a harsh border"
+                  - listitem [ref=e875]:
+                    - strong [ref=e876]: Contextual badges
+                    - text: ": \"Most Popular\" badge floats above the featured plan"
+                  - listitem [ref=e877]:
+                    - strong [ref=e878]: Smooth transitions
+                    - text: ": All interactions use 500ms transitions for a polished feel"
+                - paragraph [ref=e879]: The design avoids template clichés by using unexpected color combinations and interactive depth rather than heavy shadows.
+        - generic [ref=e791]:
+          - textbox "Describe the React component you want to create..." [ref=e792]
+          - button [disabled] [ref=e793]:
+            - img [ref=e794]
+    - separator [ref=e797]
+    - generic [ref=e799]:
+      - generic [ref=e800]:
+        - tablist [ref=e802]:
+          - tab "Preview" [ref=e803]
+          - tab "Code" [active] [selected] [ref=e804]
+        - generic [ref=e805]:
+          - combobox [ref=e806]:
+            - img
+            - text: "Design #5367"
+            - img
+          - button "New Design" [ref=e807]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e808]:
+            - img
+      - generic [ref=e883]:
+        - generic [ref=e891] [cursor=pointer]:
+          - img [ref=e892]
+          - generic [ref=e897]: App.jsx
+        - separator [ref=e898]
+        - code [ref=e903]:
+          - generic [ref=e904]:
+            - generic [ref=e906]:
+              - generic [ref=e909]: "1"
+              - generic [ref=e911]: "2"
+              - generic [ref=e913]: "3"
+              - generic [ref=e914]:
+                - generic [ref=e915] [cursor=pointer]: 
+                - generic [ref=e916]: "4"
+              - generic [ref=e918]: "5"
+              - generic [ref=e921]: "6"
+              - generic [ref=e922]:
+                - generic [ref=e923] [cursor=pointer]: 
+                - generic [ref=e924]: "7"
+              - generic [ref=e925]:
+                - generic [ref=e926] [cursor=pointer]: 
+                - generic [ref=e927]: "8"
+              - generic [ref=e929]: "9"
+              - generic [ref=e931]: "10"
+              - generic [ref=e933]: "11"
+              - generic [ref=e935]: "12"
+              - generic [ref=e936]:
+                - generic [ref=e937] [cursor=pointer]: 
+                - generic [ref=e938]: "13"
+              - generic [ref=e940]: "14"
+              - generic [ref=e942]: "15"
+              - generic [ref=e944]: "16"
+              - generic [ref=e946]: "17"
+              - generic [ref=e948]: "18"
+              - generic [ref=e950]: "19"
+              - generic [ref=e952]: "20"
+              - generic [ref=e954]: "21"
+              - generic [ref=e956]: "22"
+              - generic [ref=e957]:
+                - generic [ref=e958] [cursor=pointer]: 
+                - generic [ref=e959]: "23"
+              - generic [ref=e961]: "24"
+              - generic [ref=e963]: "25"
+              - generic [ref=e965]: "26"
+              - generic [ref=e967]: "27"
+              - generic [ref=e968]:
+                - generic [ref=e969] [cursor=pointer]: 
+                - generic [ref=e970]: "28"
+              - generic [ref=e972]: "29"
+              - generic [ref=e974]: "30"
+              - generic [ref=e976]: "31"
+              - generic [ref=e978]: "32"
+            - generic [ref=e1099]:
+              - generic [ref=e1101]: "import React, { useState } from 'react';"
+              - generic [ref=e1103]: "import { Check } from 'lucide-react';"
+              - generic [ref=e1106]: "export default function PricingTable() {"
+              - generic [ref=e1108]: const [hoveredPlan, setHoveredPlan] = useState
+              - generic [ref=e1110]: (null);
+              - generic [ref=e1113]: const plans = [
+              - generic [ref=e1115]: "{"
+              - generic [ref=e1117]: "id: 'starter',"
+              - generic [ref=e1119]: "name: 'Starter',"
+              - generic [ref=e1121]: "price: '29',"
+              - generic [ref=e1123]: "description: 'Perfect for getting started',"
+              - generic [ref=e1125]: "features: ["
+              - generic [ref=e1127]: "'Up to 5 projects',"
+              - generic [ref=e1129]: "'2GB storage',"
+              - generic [ref=e1131]: "'Basic analytics',"
+              - generic [ref=e1133]: "'Community support',"
+              - generic [ref=e1135]: "'Monthly reports'"
+              - generic [ref=e1137]: "],"
+              - generic [ref=e1139]: "cta: 'Get Started',"
+              - generic [ref=e1141]: "accent: 'from-amber-400 to-orange-500'"
+              - generic [ref=e1143]: "},"
+              - generic [ref=e1145]: "{"
+              - generic [ref=e1147]: "id: 'pro',"
+              - generic [ref=e1149]: "name: 'Pro',"
+              - generic [ref=e1151]: "price: '79',"
+              - generic [ref=e1153]: "description: 'For growing teams',"
+              - generic [ref=e1155]: "features: ["
+              - generic [ref=e1157]: "'Unlimited projects',"
+              - generic [ref=e1159]: "'100GB storage',"
+              - generic [ref=e1161]: "'Advanced analytics',"
+              - generic [ref=e1163]: "'Priority support',"
+            - textbox "Editor content" [ref=e1167]
